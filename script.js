@@ -44,6 +44,7 @@ function newGame(){
   pickedColorDisplay.innerText = color;
   chosenIndex = rnd(tiles.length-1);
   for (var i = 0; i < tiles.length; i++) {
+    tiles[i].classList.remove("hidden");
     if(chosenIndex === i){
       tiles[i].style.backgroundColor = color;
     }else{
