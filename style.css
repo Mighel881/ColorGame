@@ -79,7 +79,7 @@ h1 {
 #pickedColorDisplay{
   font-size: 2em;
   display: block;
-  font-weight: bold;
+  font-weight:bold;
 }
 
 @media (hover: hover) {
