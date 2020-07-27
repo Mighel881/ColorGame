@@ -1,0 +1,86 @@
+
+
+body{
+  margin: 0;
+  font-family: Montserrat, Avenir;
+  background: #222
+}
+
+h1 {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.header{
+  background: steelblue;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 0;
+  transition: background-color 300ms;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.tile{
+  width: 150px;
+  height: 150px;
+  background: pink;
+  margin: 10px;
+  border-radius: 25px;
+  transition: background-color 300ms;
+}
+
+.hidden{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+
+.btnSelected{
+  background-color: steelblue;
+  color: white;
+}
+
+.btnHighlighted{
+  background-color: steelblue;
+  color: white;
+}
+
+.gameScreen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#actionBar span{
+  padding:  8px;
+  margin: 0 3px;
+  transition: background-color 300ms, color 300ms;
+}
+
+
+#actionBar{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  color: steelblue;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+#difBtns{
+  display: flex
+}
+
+
+
+#pickedColorDisplay{
+  font-size: 2em;
+  display: block;
+}
