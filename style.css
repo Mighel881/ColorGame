@@ -6,6 +6,7 @@ body{
   background: #222
 }
 
+
 h1 {
   margin: 0;
   font-weight: lighter;
@@ -47,11 +48,6 @@ h1 {
   color: white;
 }
 
-.btnHighlighted{
-  background-color: steelblue;
-  color: white;
-}
-
 .gameScreen{
   display: flex;
   flex-direction: column;
@@ -83,4 +79,33 @@ h1 {
 #pickedColorDisplay{
   font-size: 2em;
   display: block;
+}
+
+@media (hover: hover) {
+  #actionBar span:hover{
+    background-color: steelblue;
+    color: white;
+  }
+}
+
+@media (max-width: 750px) {
+  #pickedColorDisplay{
+    font-size: 1.5em;
+    display: block;
+  }
+  h1{
+    font-size: 1.75em;
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  #pickedColorDisplay{
+    font-size: 1.3em;
+    display: block;
+  }
+  h1{
+    font-size: 1.5em;
+    display: block;
+  }
 }

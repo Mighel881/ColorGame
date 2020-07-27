@@ -11,14 +11,7 @@ let chosenIndex;
 let isHard = false;
 newGame();
 
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("mouseover", function(){
-    this.classList.toggle("btnHighlighted");
-  });
-  btns[i].addEventListener("mouseout", function(){
-    this.classList.toggle("btnHighlighted");
-  });
-}
+
 newBtn.addEventListener("click", function(){
   newGame();
 });
