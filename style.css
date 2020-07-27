@@ -92,22 +92,17 @@ h1 {
 @media (max-width: 750px) {
   #pickedColorDisplay{
     font-size: 1.5em;
-    display: block;
-    font-weight: bold;
   }
   h1{
     font-size: 1.75em;
-    display: block;
   }
 }
 
 @media (max-width: 500px) {
   #pickedColorDisplay{
     font-size: 1.3em;
-    display: block;
   }
   h1{
     font-size: 1.5em;
-    display: block;
   }
 }
